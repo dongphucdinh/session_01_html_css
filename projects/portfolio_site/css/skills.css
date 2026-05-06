@@ -1,0 +1,9 @@
+.skill-bar {
+    height: 12px;
+    background: #e2e8f0;
+}
+
+.skill-progress {
+    height: 100%;
+    width: 95%;
+}
