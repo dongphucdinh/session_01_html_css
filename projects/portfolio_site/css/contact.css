@@ -79,3 +79,7 @@ textarea {
     transition: 0.3s;
 }
 
+.submit-btn:hover {
+    background: #4f46e5;
+    transform: translateY(-2px);
+}
