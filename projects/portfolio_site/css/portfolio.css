@@ -14,7 +14,7 @@ portfolio-section {
 }
 
 .filter-btn {
-    border: 2px solid #6366f1;
+    border: 2px solid var(--color-primary);
     padding: 8px 20px;
     border-radius: 25px;
     background: transparent;
@@ -24,7 +24,7 @@ portfolio-section {
 
 .filter-btn:hover,
 .filter-btn.active {
-    background: #6366f1;
+    background: var(--color-primary);
     color: white;
 }
 
@@ -45,7 +45,6 @@ portfolio-section {
     aspect-ratio: 4/3;
     object-fit: cover;
     transition: transform 0.4s;
-    aspect-ratio: 4/3; 
 }
 
 .portfolio-item:hover img {
